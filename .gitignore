@@ -1,0 +1,32 @@
+# Dependencies
+node_modules/
+
+# Build and test output
+dist/
+coverage/
+*.tsbuildinfo
+
+# Local environment and logs
+.env
+.env.*
+!.env.example
+*.local
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Raw export archives (their extracted sources are tracked)
+src.zip
+guidelines.zip
+
+# Downloaded installers and packaged application artifacts
+*.exe
+*.msi
