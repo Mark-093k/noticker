@@ -21,9 +21,11 @@ Notion의 정보를 Windows 데스크톱 위젯으로 보여 주기 위한 프�
 ## 개발 준비
 
 ```bash
-npm install
+npm install --include=dev
 npm run build
 ```
+
+`NODE_ENV=production`인 환경에서도 빌드 도구가 설치되도록 `--include=dev`를 사용합니다.
 
 ## 다음 개발 단계
 
